@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+#header{
+    height: 100px ;
+    display: flex;
+    justify-content: space-around
+}
+    #lghd{
+        height: 75px;
+    }
+    #logo{
+        justify-content: space-between;
+    }
+    #nav{
+        height: 50px;
+        background-color: #F1720B;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+        .lnav{
+            text-decoration: none;
+            color: white;
+            align-content: center;
+            text-align: center;
+            font-size: larger;
+            width: 120px;
+        }
+        .lnav:hover{
+            background-color:#421E08;
+            width: 120px;
+            border-bottom: white;
+            border-bottom: solid;
+        }
+#une{
+    position: relative;
+}
+    #imghd{
+        width: 100%;
+    }
+    #sport{
+        padding-top: 10%;
+        padding-bottom: 3%;
+    }
+        .titre{
+            color: #F1720B;
+            font-size: xx-large;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .contenu{
+            color: grey;
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+        }
+        #blog{
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            background-color: #421E08;
+            border: none;
+            height: 40px;
+            width: 220px;
+            font-weight: bolder;
+            position: absolute;
+            left: 43%;
+            top: 95%;
+        }
+    #barefoot{
+        background-image: url(barefoot.jpg);
+        height: 250px;
+        width: 470px;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        border-top: solid;
+        border-top: #F1720B;
+    }
+    #skysurf{
+        background-image: url(sky.jpg);
+        height: 250px;
+        width: 470px;
+        position: absolute;
+        top: 35%;
+        left: 51%;
+        border-top: solid;
+        border-top: #F1720B;
+    }
+        .tb{
+            color: white;
+            font-size: xxx-large;
+            font-weight: bolder;
+        }
+        .cb{
+            color: white;
+            font-size: large;
+        }
+    .savoir{
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+        height: 40px;
+        width: 150px;
+        background-color: #F1720B;
+        text-align: center;
+        font-size: 16px ;
+        border: none;
+    }
+#running{
+    background-image: url(equipement.jpg);
+    background-size: cover;
+    height: 550px;
+}
+    #envie{
+        color: white;
+        font-size: xxx-large;
+        padding-left: 15%;
+    }
+    #offert{
+        color: #F1720B;
+        font-size: 70px;
+    }
+    #profite{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        background-color: #421E08;
+        border: none;
+        height: 40px;
+        width: 220px;
+        font-weight: bolder;
+    }
